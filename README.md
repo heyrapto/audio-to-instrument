@@ -43,3 +43,4 @@ python scripts/train.py --instrument_config configs/keyboard.yaml
 python scripts/convert.py --input data/raw/input/song.wav --output outputs/generated/keyboard.wav --checkpoint checkpoints/trumpet_epoch_100.pth --instrument_config configs/keyboard.yaml
 ```
 # audio-to-instrument
+# audio-to-instrument

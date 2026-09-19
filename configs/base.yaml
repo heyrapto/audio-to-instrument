@@ -1,0 +1,18 @@
+audio:
+  sample_rate: 16000
+  channels: 1
+  hop_length: 160
+  n_fft: 1024
+features:
+  fmin: 50
+  fmax: 1200
+  pitch_confidence_threshold: 0.5
+model:
+  hidden_size: 256
+  num_layers: 4
+paths:
+  raw_data: data/raw
+  processed_data: data/processed
+  features: data/processed/features
+  checkpoints: checkpoints
+  outputs: outputs

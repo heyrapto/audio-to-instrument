@@ -1,0 +1,11 @@
+training:
+  batch_size: 16
+  epochs: 100
+  learning_rate: 0.0003
+  weight_decay: 0.00001
+  num_workers: 2
+  save_every: 5
+  mixed_precision: true
+  gradient_clip: 1.0
+validation:
+  interval: 1

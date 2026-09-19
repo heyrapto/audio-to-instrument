@@ -1,0 +1,7 @@
+instrument:
+  name: keyboard
+  fmin: 20
+  fmax: 4000
+  harmonic_count: 100
+  noise_bands: 65
+  output_sample_rate: 16000

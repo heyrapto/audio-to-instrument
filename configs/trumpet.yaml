@@ -1,0 +1,7 @@
+instrument:
+  name: trumpet
+  fmin: 80
+  fmax: 1200
+  harmonic_count: 64
+  noise_bands: 8
+  output_sample_rate: 16000
